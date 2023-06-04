@@ -9,4 +9,4 @@ SDE Sheet Link : https://takeuforward.org/interviews/strivers-sde-sheet-top-codi
 <br>
 
 **#SdeSheetChallenge** 
-Check Rules/Prizes/All-Info of this challenge: https://takeuforward.org/uncategorized/strivers-sde-sheet-challenge/
+Check Rules/Prizes/All-Info of this challenge:[ https://takeuforward.org/uncategorized/strivers-sde-sheet-challenge/](https://takeuforward.org/interviews/strivers-sde-sheet-challenge-2023/)
