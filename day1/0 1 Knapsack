@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int solve(int i, int w, vector<int> &val, vector<int> &wt, vector<vector<int>> &dp){
+
+	if(i < 0) return 0;
+	if(dp[i][w] != -1) return dp[i][w];
+
+	int npick = solve(i-1, w, val, wt, dp);
+
+	int pick = 0;
+
+	//pick
+	if(w - wt[i] >= 0){
+		pick = val[i] + solve(i -1, w-wt[i], val, wt, dp);
+	}
+
+	return dp[i][w] = max(npick, pick);
+
+}
+
+int maxProfit(vector<int> &values, vector<int> &weights, int n, int w)
+{
+	
+	vector<vector<int>> dp(n+1, vector<int> (w+1, -1));	
+	return solve(n-1, w, values, weights, dp);
+
+}
